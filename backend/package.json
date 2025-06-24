@@ -6,10 +6,11 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "dangote":"nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "dangote",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
