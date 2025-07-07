@@ -7,7 +7,7 @@ import toast from 'react-hot-toast'
 
 function App() {
   return (
-   <div>
+   <div data-theme="forest">
    
     <Routes>   
       <Route path = "/"   element = {<HomePage/>} />
