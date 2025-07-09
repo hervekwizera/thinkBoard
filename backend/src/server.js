@@ -10,12 +10,12 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT||5000;
-
-app.use(express.json());
-app.use(rateLimiter)
 app.use(cors({
   origin:"http://localhost:5173"
-}))
+}));
+
+app.use(express.json());
+app.use(rateLimiter);
 
 app.use("/api/notes",noteRouter);
 
